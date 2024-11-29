@@ -1,0 +1,97 @@
+guid: f90e7994-dd01-46eb-84b2-b799ed28206c
+liveboard:
+  name: tsadmin's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: git acm
+      tables:
+      - id: ACM GIT WS
+        name: ACM GIT WS
+        fqn: 2c934c3d-9446-4fbc-95cc-4231626420e3
+      search_query: "[C_CUSTKEY] [LO_PARTKEY] [C_REGION] [LO_COMMITDATE] [LO_COMMITDATE].daily"
+      answer_columns:
+      - name: C_REGION
+      - name: Day(LO_COMMITDATE)
+      - name: Total C_CUSTKEY
+      - name: Total LO_PARTKEY
+      table:
+        table_columns:
+        - column_id: C_REGION
+          show_headline: false
+        - column_id: Day(LO_COMMITDATE)
+          show_headline: false
+        - column_id: Total C_CUSTKEY
+          show_headline: false
+        - column_id: Total LO_PARTKEY
+          show_headline: false
+        ordered_column_ids:
+        - C_REGION
+        - Day(LO_COMMITDATE)
+        - Total C_CUSTKEY
+        - Total LO_PARTKEY
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: LINE
+        chart_columns:
+        - column_id: C_REGION
+        - column_id: Day(LO_COMMITDATE)
+        - column_id: Total C_CUSTKEY
+        - column_id: Total LO_PARTKEY
+        axis_configs:
+        - x:
+          - Day(LO_COMMITDATE)
+          "y":
+          - Total C_CUSTKEY
+          - Total LO_PARTKEY
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_REGION\",\"columnProperty\": {}},{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total C_CUSTKEY\",\"columnProperty\": {}},{\"columnId\": \"Total LO_PARTKEY\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"c818977e-0004-418a-a99a-8ff3cf13473f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total C_CUSTKEY\"],\"isOpposite\": false}},{\"id\": \"a0f32569-2252-41e8-bd74-ee94f9370e37\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_PARTKEY\"],\"isOpposite\": true}},{\"id\": \"70225b36-40c7-481f-a97a-ce70724b67c2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total C_CUSTKEY\",\"color\": \"#2E75F0\"},{\"serieName\": \"Total LO_PARTKEY\",\"color\": \"#48D1E0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 0d174be5-79fb-44bc-b37a-0ec77494b4a6
+  - id: Viz_2
+    answer:
+      name: git acm
+      tables:
+      - id: ACM GIT WS
+        name: ACM GIT WS
+        fqn: 2c934c3d-9446-4fbc-95cc-4231626420e3
+      search_query: "[C_CUSTKEY] [LO_PARTKEY] [C_REGION] [LO_COMMITDATE] [LO_COMMITDATE].daily"
+      answer_columns:
+      - name: C_REGION
+      - name: Day(LO_COMMITDATE)
+      - name: Total C_CUSTKEY
+      - name: Total LO_PARTKEY
+      table:
+        table_columns:
+        - column_id: C_REGION
+          show_headline: false
+        - column_id: Day(LO_COMMITDATE)
+          show_headline: false
+        - column_id: Total C_CUSTKEY
+          show_headline: false
+        - column_id: Total LO_PARTKEY
+          show_headline: false
+        ordered_column_ids:
+        - C_REGION
+        - Day(LO_COMMITDATE)
+        - Total C_CUSTKEY
+        - Total LO_PARTKEY
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_BAR
+        chart_columns:
+        - column_id: C_REGION
+        - column_id: Day(LO_COMMITDATE)
+        - column_id: Total C_CUSTKEY
+        - column_id: Total LO_PARTKEY
+        axis_configs:
+        - x:
+          - Day(LO_COMMITDATE)
+          "y":
+          - Total C_CUSTKEY
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_REGION\",\"columnProperty\": {}},{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total C_CUSTKEY\",\"columnProperty\": {}},{\"columnId\": \"Total LO_PARTKEY\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"497f3c37-ec41-430a-a71d-8577c0757d04\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total C_CUSTKEY\"],\"isOpposite\": false}},{\"id\": \"dbdc9fca-8106-4ed6-a580-d0cfaa0fd614\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: a913105e-98f5-48b9-9b09-07aed6fed5c8
