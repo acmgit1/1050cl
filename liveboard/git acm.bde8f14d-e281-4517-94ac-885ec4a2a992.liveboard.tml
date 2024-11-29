@@ -137,10 +137,19 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b51459f2-71c3-40ed-a467-c8574861248c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_SUPPKEY\"],\"isOpposite\": false}},{\"id\": \"6ee813d3-2c42-40b5-968f-e30a2bcd22f3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total LO_SUPPKEY\",\"color\": \"#06BF7F\"}]}"
       display_mode: CHART_MODE
     viz_guid: e54fbb21-7528-4d69-a40f-d9afd678e16c
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
+    - visualization_id: Viz_2
+      size: SMALL
+    - visualization_id: Viz_3
+      size: MEDIUM
   parameter_overrides:
   - key: 01423754-9683-48ef-8220-7d010d499ce4
     value:
       name: ACM GIT WS::int
+      override_value: "93"
   ordered_chips:
   - name: ACM GIT WS::int
     type: PARAMETER
