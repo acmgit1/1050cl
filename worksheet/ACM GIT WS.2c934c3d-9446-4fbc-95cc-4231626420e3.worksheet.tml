@@ -170,8 +170,8 @@ worksheet:
     sage_config:
       is_sage_enabled: false
   parameters:
-  - id: 931e14e4-ebdf-4664-b703-c9b2e616b847
-    name: intacm
+  - id: 01423754-9683-48ef-8220-7d010d499ce4
+    name: int
     data_type: INT64
-    default_value: "10"
+    default_value: "9"
     description: ""

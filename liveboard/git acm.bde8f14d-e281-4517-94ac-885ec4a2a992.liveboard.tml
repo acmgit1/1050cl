@@ -1,0 +1,146 @@
+guid: bde8f14d-e281-4517-94ac-885ec4a2a992
+liveboard:
+  name: git acm
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: "Total LO_SUPPKEY, Total fx by Daily LO_COMMITDATE"
+      tables:
+      - id: ACM GIT WS
+        name: ACM GIT WS
+        fqn: 2c934c3d-9446-4fbc-95cc-4231626420e3
+      formulas:
+      - id: fx
+        name: fx
+        expr: "[int] * [LO_TAX] "
+        was_auto_generated: false
+      search_query: "[LO_COMMITDATE] [LO_COMMITDATE].daily [LO_SUPPKEY] [fx]"
+      answer_columns:
+      - name: Day(LO_COMMITDATE)
+      - name: Total LO_SUPPKEY
+      - name: Total fx
+      table:
+        table_columns:
+        - column_id: Day(LO_COMMITDATE)
+          show_headline: false
+        - column_id: Total LO_SUPPKEY
+          show_headline: false
+        - column_id: Total fx
+          show_headline: false
+        ordered_column_ids:
+        - Day(LO_COMMITDATE)
+        - Total LO_SUPPKEY
+        - Total fx
+        client_state: ""
+      chart:
+        type: LINE
+        chart_columns:
+        - column_id: Day(LO_COMMITDATE)
+        - column_id: Total LO_SUPPKEY
+        - column_id: Total fx
+        axis_configs:
+        - x:
+          - Day(LO_COMMITDATE)
+          "y":
+          - Total LO_SUPPKEY
+          - Total fx
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: fc20e680-6962-436a-a703-7068d9b30d05
+  - id: Viz_2
+    answer:
+      name: Total LO_SUPPKEY by Daily LO_COMMITDATE
+      tables:
+      - id: ACM GIT WS
+        name: ACM GIT WS
+        fqn: 2c934c3d-9446-4fbc-95cc-4231626420e3
+      formulas:
+      - id: fx
+        name: fx
+        expr: "[int] * [LO_TAX] "
+        was_auto_generated: false
+      search_query: "[LO_COMMITDATE] [LO_COMMITDATE].daily [LO_SUPPKEY] [fx]"
+      answer_columns:
+      - name: Day(LO_COMMITDATE)
+      - name: Total LO_SUPPKEY
+      - name: Total fx
+      table:
+        table_columns:
+        - column_id: Day(LO_COMMITDATE)
+          show_headline: false
+        - column_id: Total LO_SUPPKEY
+          show_headline: false
+        - column_id: Total fx
+          show_headline: false
+        ordered_column_ids:
+        - Day(LO_COMMITDATE)
+        - Total LO_SUPPKEY
+        - Total fx
+        client_state: ""
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Day(LO_COMMITDATE)
+        - column_id: Total LO_SUPPKEY
+        - column_id: Total fx
+        axis_configs:
+        - x:
+          - Day(LO_COMMITDATE)
+          "y":
+          - Total LO_SUPPKEY
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b51459f2-71c3-40ed-a467-c8574861248c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_SUPPKEY\"],\"isOpposite\": false}},{\"id\": \"6ee813d3-2c42-40b5-968f-e30a2bcd22f3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}]}"
+      display_mode: CHART_MODE
+    viz_guid: 495923dc-faf3-4df2-9c63-1483583d4bed
+  - id: Viz_3
+    answer:
+      name: Total LO_SUPPKEY by Daily LO_COMMITDATE
+      tables:
+      - id: ACM GIT WS
+        name: ACM GIT WS
+        fqn: 2c934c3d-9446-4fbc-95cc-4231626420e3
+      formulas:
+      - id: fx
+        name: fx
+        expr: "[int] * [LO_TAX] "
+        was_auto_generated: false
+      search_query: "[LO_COMMITDATE] [LO_COMMITDATE].daily [LO_SUPPKEY] [fx]"
+      answer_columns:
+      - name: Day(LO_COMMITDATE)
+      - name: Total LO_SUPPKEY
+      - name: Total fx
+      table:
+        table_columns:
+        - column_id: Day(LO_COMMITDATE)
+          show_headline: false
+        - column_id: Total LO_SUPPKEY
+          show_headline: false
+        - column_id: Total fx
+          show_headline: false
+        ordered_column_ids:
+        - Day(LO_COMMITDATE)
+        - Total LO_SUPPKEY
+        - Total fx
+        client_state: ""
+      chart:
+        type: PIE
+        chart_columns:
+        - column_id: Day(LO_COMMITDATE)
+        - column_id: Total LO_SUPPKEY
+        - column_id: Total fx
+        axis_configs:
+        - x:
+          - Day(LO_COMMITDATE)
+          "y":
+          - Total LO_SUPPKEY
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b51459f2-71c3-40ed-a467-c8574861248c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_SUPPKEY\"],\"isOpposite\": false}},{\"id\": \"6ee813d3-2c42-40b5-968f-e30a2bcd22f3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total LO_SUPPKEY\",\"color\": \"#06BF7F\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: e54fbb21-7528-4d69-a40f-d9afd678e16c
+  parameter_overrides:
+  - key: 01423754-9683-48ef-8220-7d010d499ce4
+    value:
+      name: ACM GIT WS::int
+  ordered_chips:
+  - name: ACM GIT WS::int
+    type: PARAMETER
