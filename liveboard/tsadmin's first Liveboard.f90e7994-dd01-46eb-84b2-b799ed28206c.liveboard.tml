@@ -95,3 +95,9 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"C_REGION\",\"columnProperty\": {}},{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total C_CUSTKEY\",\"columnProperty\": {}},{\"columnId\": \"Total LO_PARTKEY\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"497f3c37-ec41-430a-a71d-8577c0757d04\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total C_CUSTKEY\"],\"isOpposite\": false}},{\"id\": \"dbdc9fca-8106-4ed6-a580-d0cfaa0fd614\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}]}"
       display_mode: CHART_MODE
     viz_guid: a913105e-98f5-48b9-9b09-07aed6fed5c8
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM_SMALL
+    - visualization_id: Viz_2
+      size: MEDIUM
