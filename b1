@@ -1,0 +1,7 @@
+echo "# 1050cl" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/acmgit1/1050cl.git
+git push -u origin main
