@@ -46,7 +46,7 @@ liveboard:
           - Total LO_SUPPKEY
           - Total fx
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"93b5bb17-b8d8-426a-8dd0-b38f333e1a1a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_SUPPKEY\"],\"isOpposite\": false}},{\"id\": \"59965b54-d0cb-4b31-a190-e2cd5adc684c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total fx\"],\"isOpposite\": true}},{\"id\": \"10b96630-efd9-4b19-9b16-6012df243ff6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"5d58cd9b-aeee-4480-9e2c-bec83e7b2568\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_SUPPKEY\"],\"isOpposite\": false}},{\"id\": \"78a4c096-483b-4156-94a7-7dbc4d2e55ab\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total fx\"],\"isOpposite\": true}},{\"id\": \"1fec11b1-552a-4167-9c4f-3378f8aa5761\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}]}"
       display_mode: CHART_MODE
     viz_guid: fc20e680-6962-436a-a703-7068d9b30d05
   - id: Viz_2
@@ -153,6 +153,7 @@ liveboard:
   - key: 01423754-9683-48ef-8220-7d010d499ce4
     value:
       name: ACM GIT WS::int
+      override_value: "93"
   ordered_chips:
   - name: ACM GIT WS::int
     type: PARAMETER
