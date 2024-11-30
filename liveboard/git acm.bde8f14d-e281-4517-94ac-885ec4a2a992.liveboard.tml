@@ -12,7 +12,7 @@ liveboard:
       formulas:
       - id: fx
         name: fx
-        expr: "[int] * [LO_TAX] "
+        expr: "[int] * [LO_TAX]"
         was_auto_generated: false
       search_query: "[LO_COMMITDATE] [LO_COMMITDATE].daily [LO_SUPPKEY] [fx]"
       answer_columns:
@@ -32,6 +32,7 @@ liveboard:
         - Total LO_SUPPKEY
         - Total fx
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}]}"
       chart:
         type: LINE
         chart_columns:
@@ -45,6 +46,7 @@ liveboard:
           - Total LO_SUPPKEY
           - Total fx
         client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"gridLines\": {},\"responsiveLayoutPreference\": \"USER_PREFERRED_ON\",\"chartSpecific\": {\"dataFieldArea\": \"column\"}},\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"93b5bb17-b8d8-426a-8dd0-b38f333e1a1a\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total LO_SUPPKEY\"],\"isOpposite\": false}},{\"id\": \"59965b54-d0cb-4b31-a190-e2cd5adc684c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total fx\"],\"isOpposite\": true}},{\"id\": \"10b96630-efd9-4b19-9b16-6012df243ff6\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Day(LO_COMMITDATE)\"]}}]}"
       display_mode: CHART_MODE
     viz_guid: fc20e680-6962-436a-a703-7068d9b30d05
   - id: Viz_2
@@ -57,7 +59,7 @@ liveboard:
       formulas:
       - id: fx
         name: fx
-        expr: "[int] * [LO_TAX] "
+        expr: "[int] * [LO_TAX]"
         was_auto_generated: false
       search_query: "[LO_COMMITDATE] [LO_COMMITDATE].daily [LO_SUPPKEY] [fx]"
       answer_columns:
@@ -77,6 +79,7 @@ liveboard:
         - Total LO_SUPPKEY
         - Total fx
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}]}"
       chart:
         type: KPI
         chart_columns:
@@ -102,7 +105,7 @@ liveboard:
       formulas:
       - id: fx
         name: fx
-        expr: "[int] * [LO_TAX] "
+        expr: "[int] * [LO_TAX]"
         was_auto_generated: false
       search_query: "[LO_COMMITDATE] [LO_COMMITDATE].daily [LO_SUPPKEY] [fx]"
       answer_columns:
@@ -122,6 +125,7 @@ liveboard:
         - Total LO_SUPPKEY
         - Total fx
         client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"columnProperties\": [{\"columnId\": \"Day(LO_COMMITDATE)\",\"columnProperty\": {}},{\"columnId\": \"Total LO_SUPPKEY\",\"columnProperty\": {}},{\"columnId\": \"Total fx\",\"columnProperty\": {}}]}"
       chart:
         type: PIE
         chart_columns:
@@ -149,7 +153,6 @@ liveboard:
   - key: 01423754-9683-48ef-8220-7d010d499ce4
     value:
       name: ACM GIT WS::int
-      override_value: "93"
   ordered_chips:
   - name: ACM GIT WS::int
     type: PARAMETER
